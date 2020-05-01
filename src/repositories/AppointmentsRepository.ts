@@ -1,4 +1,4 @@
-import Appointment from '../models/Appointments';
+import Appointment from '../models/Appointment';
 import { EntityRepository, Repository } from 'typeorm';
 
 @EntityRepository(Appointment)
